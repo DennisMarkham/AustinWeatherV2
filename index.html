@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <title>Austin Weather Monitor</title>
+  <link rel="stylesheet" type="text/css" href="style.css">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <script src="https://www.gstatic.com/firebasejs/5.2.0/firebase.js"></script>
+
+   <script src="https://cdn.jsdelivr.net/momentjs/2.12.0/moment.min.js"></script>
+</head>
+
+<body>
+
+  <div id = "logged">
+  
+  
+  </div>
+
+  <!-- Retrieved data will be dumped here -->
+  <div id = content>
+  <h1>Today in Austin, TX: </h1>
+  <img src = "images/sun.png"  id = "weather_img"></src>
+  
+  <div id = "stats">
+  <p>Temperature: <span style= "color: #E68518;" id = "temp"></span> (<span id = "degrees"></span> F)</p> 
+  <p>Weather: <span id = "weather"></span> </p>
+  </div>
+
+<button type="button">Mark in History</button>
+</div>
+  
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+<script src = "weather.js"></script>
+</body>
+
+</html>
+
