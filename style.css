@@ -36,6 +36,14 @@ opacity: .9;
 	overflow: scroll;
 }
 
+@media only screen and (min-width: 1700px){
+
+#logged
+{
+  margin-left: 20%;
+}
+}
+
 #content {
 	background-color: white;
 	display:block;
